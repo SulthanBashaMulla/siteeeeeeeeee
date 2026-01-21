@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# 🚀 Wybzite
 
-## Project info
+**Wybzite** is a creative web development startup focused on building modern, fast, and scalable websites that help businesses establish a strong digital presence.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+We turn ideas into **powerful digital experiences**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 What We Do
 
-**Use Lovable**
+At Wybzite, we specialize in designing and developing websites that are:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- ⚡ High-performance
+- 📱 Fully responsive
+- 🎨 Visually appealing
+- 🔐 Secure & scalable
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Services We Provide
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🌍 **Landing Page Websites**  
+  Perfect for startups, portfolios, and product launches.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🧭 **Multi-page / Static Websites**  
+  Professional business websites with clean navigation.
 
-Follow these steps:
+- 🛒 **E-commerce Websites**  
+  Scalable online stores with modern UI and smooth checkout experience.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🧩 **Custom Web Solutions**  
+  Tailored solutions based on your business needs.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 💻 Technologies We Use
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Databases:** MongoDB, Firebase
+- **Tools:** Git, GitHub, Vite, Figma
+- **Hosting:** Vercel, Netlify, Cloud Platforms
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Why Choose Wybzite?
 
-**Use GitHub Codespaces**
+- 🚀 Startup-friendly approach
+- 🎯 Focus on performance & UX
+- 🧠 Clean, maintainable code
+- 🤝 Transparent communication
+- ⏱️ On-time delivery
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧑‍💻 Our Mission
 
-This project is built with:
+To empower businesses and individuals by building websites that are not just beautiful — but **meaningful, functional, and impactful**.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📬 Get in Touch
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Have an idea or project in mind?  
+Let’s build something amazing together.
 
-## Can I connect a custom domain to my Lovable project?
+- 📧 Email: *your-email@example.com*
+- 🌐 Website: *Coming Soon*
+- 📱 Socials: *Launching Soon*
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### ⭐ If you like our work, give us a star and support Wybzite!
