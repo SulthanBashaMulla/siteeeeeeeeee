@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import logo from "@/assets/founder.svg";
 
 const menuItems = [
   { name: 'Home', path: '/' },
@@ -36,10 +37,11 @@ export const Header = () => {
             className="cursor-pointer"
             onClick={() => handleNavigation('/')}
           >
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-              <span className="text-foreground">Nova</span>
-              <span className="text-gradient">Tech</span>
-            </h1>
+<img
+  src={logo}
+  alt="NovaTech logo"
+  className="h-8 md:h-10 w-auto"
+/>
           </motion.div>
 
           {/* Hamburger Menu Button */}
