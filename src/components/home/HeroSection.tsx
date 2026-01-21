@@ -61,8 +61,7 @@ export const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10"
   >
-We Build Websites That Speak Your Brand,
-Build It. Visit It. Love It 🧭
+We Build Websites That Speak Your Brand, Visit It. Love It 🧭
         </motion.p>
 
         <motion.div
