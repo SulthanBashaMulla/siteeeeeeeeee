@@ -9,7 +9,7 @@ const founders = [
     name: '-----',
     role: 'Chief Strategy Officer',
     bio: 'Strategic mastermind driving business growth through innovative solutions.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=face',
+    image: 'https://i.postimg.cc/hvJ0gM7x/6ae827fcca32bf53c2a286efeb0b145d.jpg',
   },
   {
     id: 2,
@@ -21,9 +21,9 @@ const founders = [
   {
     id: 3,
     name: 'Jack',
-    role: 'Chief Financial Officer',
+    role: 'Project Manager & CFO',
     bio: 'Financial expert ensuring sustainable growth and investor confidence.',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face',
+    image: 'https://i.postimg.cc/D0WcF5bX/51b106d479aed03e837a5260387773f5.jpg',
   },
 ];
 

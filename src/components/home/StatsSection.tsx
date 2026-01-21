@@ -89,7 +89,7 @@ export const StatsSection = () => {
         >
           <p className="text-center text-muted-foreground text-sm mb-8">Trusted by innovative companies</p>
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 opacity-50">
-            {['Stripe', 'Notion', 'Slack', 'Figma', 'Vercel'].map((company) => (
+            {['Nexora','Stripe', 'NDC', 'Slack', 'Figma', 'Vercel','CurrencY'].map((company) => (
               <span key={company} className="text-xl md:text-2xl font-semibold text-muted-foreground/70">
                 {company}
               </span>
