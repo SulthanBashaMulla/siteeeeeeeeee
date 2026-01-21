@@ -14,7 +14,7 @@ const founders = [
   },
   {
     id: 2,
-    name: 'Jack',
+    name: 'JameeR',
     role: 'Chief Strategy Officer',
     bio: 'BCOM Graduate Relational to Financial expert ensuring sustainable growth and investor confidence.',
     image: 'https://i.postimg.cc/1tSLtHn8/1769008094494.png',
