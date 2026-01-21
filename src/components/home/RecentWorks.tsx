@@ -6,21 +6,21 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Luxe Fashion',
-    category: 'E-commerce',
+    title: 'National college site',
+    category: 'Multi-page',
     image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop',
   },
   {
     id: 2,
-    title: 'TechFlow SaaS',
-    category: 'Landing Page',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+    title: 'Portofolio',
+    category: 'Dynamic site',
+    image: 'https://i.postimg.cc/28j1qTjS/6970c6bf397b6140795952f6.jpg',
   },
   {
     id: 3,
-    title: 'Artisan Coffee',
+    title: 'CurrencY',
     category: 'Multi-page',
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop',
+    image: 'https://i.postimg.cc/NfGKybGc/6970c69fd2d2e0761602c015.jpg',
   },
   {
     id: 4,

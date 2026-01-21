@@ -6,36 +6,42 @@ import { ArrowLeft, ExternalLink } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Luxe Fashion',
-    category: 'E-commerce',
-    description: 'A premium fashion e-commerce platform with seamless shopping experience and elegant product showcases. The platform features advanced filtering, wishlist functionality, and a sophisticated checkout process.',
-    challenge: 'The client needed a high-end e-commerce experience that could compete with luxury fashion retailers while maintaining fast performance and conversion optimization.',
-    solution: 'We built a custom React-based storefront with Shopify as the backend, implementing lazy loading, image optimization, and a streamlined checkout flow that reduced cart abandonment by 40%.',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=800&fit=crop',
-    techStack: ['React', 'Shopify', 'Tailwind CSS', 'Stripe', 'Framer Motion'],
-    liveUrl: '#',
+    title: 'NDC college',
+    category: 'Multi-page static site',
+    description: 'A modern and premium college website designed to deliver a seamless digital experience for students, faculty, and visitors. The platform features structured academic information, event highlights, admissions guidance, and an elegant UI that reflects the institution’s values and excellence.',
+
+challenge: 'NDC College required a high-quality digital presence that could represent its academic reputation, improve student engagement, and provide fast, easy access to essential information across all devices.',
+
+solution: 'We developed a custom Javascript based website with performance-first architecture, implementing lazy loading, optimized media assets, and an intuitive navigation structure. The result was faster load times, improved accessibility, and a significant increase in user engagement and enquiry conversions.',
+    image: 'https://i.postimg.cc/15R8gMRz/6970c6f3d78ea0421218bed3.jpg',
+    techStack: ['Html5', 'css3', 'Tailwind CSS', 'Javascript', 'Dynamic animations'],
+    liveUrl: 'https://preview-ndc.onrender.com/',
   },
   {
     id: 2,
-    title: 'TechFlow SaaS',
-    category: 'Landing Page',
-    description: 'A high-converting landing page for a B2B SaaS product with stunning animations and clear value propositions. Designed to maximize demo requests and trial signups.',
-    challenge: 'The SaaS startup needed a landing page that could clearly communicate their complex product offering while driving conversions and standing out in a crowded market.',
-    solution: 'We created an interactive landing page with smooth scroll animations, interactive product demos, and strategically placed CTAs that increased conversion rates by 65%.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop',
-    techStack: ['Next.js', 'Framer Motion', 'TypeScript', 'Vercel', 'Tailwind CSS'],
-    liveUrl: '#',
+    title: 'Portofolio',
+    category: 'Dynamic page',
+    description: 'A modern and professional portfolio website designed to showcase my skills, projects, and services with a clean, premium user experience. The platform highlights selected works, technical expertise, and contact pathways through an elegant and responsive interface.',
+
+challenge: 'I needed a personal portfolio that clearly communicates my capabilities, stands out visually, and performs smoothly across devices while remaining easy for recruiters and clients to navigate.',
+
+solution: 'I built a custom React-based portfolio website with a performance-first mindset, implementing lazy loading, optimized assets, and smooth animations. The result is a fast, visually refined site that effectively presents my work and improves engagement and inquiries.',
+    image: 'https://i.postimg.cc/28j1qTjS/6970c6bf397b6140795952f6.jpg',
+    techStack: ['React.js', 'Framer Motion', 'TypeScript', 'Vercel', 'Tailwind CSS'],
+    liveUrl: 'https://sulthanbasha27-portfolio.vercel.app',
   },
   {
     id: 3,
-    title: 'Artisan Coffee',
+    title: 'CurrencY',
     category: 'Multi-page',
-    description: 'A beautiful multi-page website for a specialty coffee brand featuring their story, products, and locations. The design emphasizes craftsmanship and artisanal quality.',
-    challenge: 'The coffee brand wanted to convey their artisanal approach and premium quality through their digital presence while making it easy for customers to find their stores.',
-    solution: 'We designed a visually rich website with immersive storytelling, integrated store locator, and a CMS for easy content updates. The site saw a 120% increase in store visits.',
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=800&fit=crop',
-    techStack: ['React', 'Sanity CMS', 'GSAP', 'Netlify', 'Mapbox'],
-    liveUrl: '#',
+    description: 'A modern hardware and building-materials store website developed for Currency, offering products such as hinges, steel components, and other industrial supplies. The platform presents products in a clean, organized layout that makes browsing and selection simple for customers.',
+
+challenge: 'Currency needed a digital storefront that could clearly showcase a wide range of hardware products while remaining easy to navigate, fast to load, and accessible for both retail and bulk buyers.',
+
+solution: 'I built a React-based store website with structured product categorization, optimized images, and responsive layouts. The site focuses on performance and usability, enabling customers to quickly find products and submit enquiries, resulting in improved engagement and lead generation.',
+    image: 'https://i.postimg.cc/NfGKybGc/6970c69fd2d2e0761602c015.jpg',
+    techStack: ['React.js', 'vercel', 'Typescript', 'Framer-motion', 'spck editor'],
+    liveUrl: 'https://currency-store-site.vercel.app/',
   },
   {
     id: 4,
@@ -59,17 +65,7 @@ const projects = [
     techStack: ['Next.js', 'Supabase', 'Mapbox', 'Stripe', 'TypeScript'],
     liveUrl: '#',
   },
-  {
-    id: 6,
-    title: 'Gourmet Delights',
-    category: 'E-commerce',
-    description: 'An upscale food delivery platform featuring curated restaurants and seamless ordering experience. Designed for food enthusiasts seeking premium dining at home.',
-    challenge: 'The client wanted to differentiate from mainstream delivery apps by focusing on premium restaurants and a curated, high-end experience.',
-    solution: 'We created a marketplace platform with chef profiles, curated collections, and a sophisticated ordering system that increased average order value by 45%.',
-    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=800&fit=crop',
-    techStack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Socket.io'],
-    liveUrl: '#',
-  },
+  
 ];
 
 const ProjectDetails = () => {
