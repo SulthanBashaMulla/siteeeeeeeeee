@@ -10,7 +10,7 @@ const founders = [
     role: 'Founder & CEO',
     bio: 'Visionary leader with 10+ years in tech innovation and digital transformation. Alexander founded NovaTech with a mission to democratize access to premium web solutions for businesses of all sizes.',
     fullBio: 'Before founding NovaTech, Alexander led product teams at several Fortune 500 companies, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
-    image: 'https://freeimage.host/i/fr1iOJ4',
+    image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
     linkedin: '#',
     twitter: '#',
   },
