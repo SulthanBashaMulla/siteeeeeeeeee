@@ -2,10 +2,10 @@ import { motion, useInView } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 
 const stats = [
-  { value: 150, suffix: '+', label: 'Projects Delivered' },
+  { value: 05, suffix: '+', label: 'Projects Delivered' },
   { value: 98, suffix: '%', label: 'Client Satisfaction' },
-  { value: 50, suffix: '+', label: 'Happy Clients' },
-  { value: 5, suffix: '+', label: 'Years Experience' },
+  { value: 06, suffix: '+', label: 'Happy Clients' },
+  { value: 1, suffix: '+', label: 'Years Experience' },
 ];
 
 const Counter = ({ value, suffix }: { value: number; suffix: string }) => {
