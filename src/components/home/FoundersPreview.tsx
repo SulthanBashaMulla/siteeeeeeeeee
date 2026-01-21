@@ -3,23 +3,24 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 const founders = [
+  
   {
     id: 1,
-    name: 'Alexander Chen',
-    role: 'Founder & CEO',
-    bio: 'Visionary leader with 10+ years in tech innovation and digital transformation.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face',
-  },
-  {
-    id: 2,
-    name: 'Sarah Mitchell',
+    name: '-----',
     role: 'Chief Strategy Officer',
     bio: 'Strategic mastermind driving business growth through innovative solutions.',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=face',
   },
   {
+    id: 2,
+    name: 'AshthaNor',
+    role: 'Founder & CEO',
+    bio: 'Visionary leader with 10+ years in tech innovation and digital transformation.',
+    image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
+  },
+  {
     id: 3,
-    name: 'Marcus Williams',
+    name: 'Jack',
     role: 'Chief Financial Officer',
     bio: 'Financial expert ensuring sustainable growth and investor confidence.',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face',
