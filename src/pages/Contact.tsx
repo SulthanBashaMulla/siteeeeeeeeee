@@ -12,7 +12,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:hello@novatech.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:hello@WybZite.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     window.location.href = mailtoLink;

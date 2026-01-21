@@ -8,8 +8,8 @@ const founders = [
     id: 1,
     name: 'AshthaNor',
     role: 'Founder & CEO',
-    bio: 'Visionary leader with 10+ years in tech innovation and digital transformation. Alexander founded NovaTech with a mission to democratize access to premium web solutions for businesses of all sizes.',
-    fullBio: 'Before founding NovaTech, Alexander led product teams at several Fortune 500 companies, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
+    bio: 'Visionary leader with 10+ years in tech innovation and digital transformation. Alexander founded WybZite with a mission to democratize access to premium web solutions for businesses of all sizes.',
+    fullBio: 'Before founding WybZite, Alexander led product teams at several Fortune 500 companies, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
     linkedin: '#',
     twitter: '#',
@@ -19,7 +19,7 @@ const founders = [
     name: 'Jack',
     role: 'Project Manager & CFO',
     bio: 'Financial expert ensuring sustainable growth and investor confidence. Jack has managed portfolios worth billions and brings fiscal discipline to our operations.',
-    fullBio: 'With an graduation from RUK and experience at top accounting, jack ensures NovaTech maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
+    fullBio: 'With an graduation from RUK and experience at top accounting, jack ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
     image: 'https://i.postimg.cc/D0WcF5bX/51b106d479aed03e837a5260387773f5.jpg',
     linkedin: '#',
     twitter: '#',
@@ -29,7 +29,7 @@ const founders = [
     name: '----',
     role: 'Chief Security Officer',
     bio: 'Financial expert ensuring sustainable growth and investor confidence. Marcus has managed portfolios worth billions and brings fiscal discipline to our operations.',
-    fullBio: 'With a Graduationfrom BCA and experience at top Growth analytics and security system, our CSO ensures NovaTech maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
+    fullBio: 'With a Graduationfrom BCA and experience at top Growth analytics and security system, our CSO ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
     image: 'https://i.postimg.cc/hvJ0gM7x/6ae827fcca32bf53c2a286efeb0b145d.jpg',
     linkedin: '#',
     twitter: '#',
@@ -66,7 +66,7 @@ const Founders = () => {
               Our <span className="text-gradient">Founders</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-              Meet the visionaries who built NovaTech from the ground up.
+              Meet the visionaries who built WybZite from the ground up.
             </p>
           </motion.div>
         </div>

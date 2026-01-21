@@ -39,7 +39,7 @@ export const Header = () => {
           >
 <img
   src={logo}
-  alt="NovaTech logo"
+  alt="WybZite logo"
   className="h-16 md:h-20 w-auto"
 />
           </motion.div>

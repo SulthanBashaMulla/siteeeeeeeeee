@@ -50,8 +50,8 @@ export const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-            <span className="text-foreground">Nova</span>
-            <span className="text-gradient">Tech</span>
+            <span className="text-foreground">Wyb</span>
+            <span className="text-gradient">Zite</span>
           </h1>
         </motion.div>
 

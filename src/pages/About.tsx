@@ -14,7 +14,7 @@ const About = () => {
             className="max-w-4xl"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-8">
-              About <span className="text-gradient">NovaTech</span>
+              About <span className="text-gradient">WybZite</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
               We are a premium digital agency dedicated to crafting exceptional web experiences 
@@ -37,7 +37,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2020, NovaTech emerged from a shared vision to bridge the gap between 
+                  Founded in 2020, WybZite emerged from a shared vision to bridge the gap between 
                   innovative technology and elegant design. What started as a small team of passionate 
                   developers has grown into a full-service digital agency.
                 </p>

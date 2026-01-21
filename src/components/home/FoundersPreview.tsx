@@ -57,7 +57,7 @@ export const FoundersPreview = () => {
             Meet Our <span className="text-gradient">Founders</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            The visionaries behind NovaTech's success
+            The visionaries behind WybZite's success
           </p>
         </motion.div>
 

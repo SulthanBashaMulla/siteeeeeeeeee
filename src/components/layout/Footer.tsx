@@ -21,8 +21,8 @@ export const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-2xl font-bold">
-              <span className="text-foreground">Nova</span>
-              <span className="text-gradient">Tech</span>
+              <span className="text-foreground">Wyb</span>
+              <span className="text-gradient">Zite</span>
             </h2>
           </motion.div>
 
@@ -53,7 +53,7 @@ export const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted-foreground text-sm"
-          > © {new Date().getFullYear()} NovaTech. All rights reserved.Made with 🤍
+          > © {new Date().getFullYear()} WybZite. All rights reserved.Made with 🤍
           </motion.p>
         </div>
       </div>
