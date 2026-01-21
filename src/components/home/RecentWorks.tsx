@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: 'National college site',
     category: 'Multi-page',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop',
+    image: 'https://i.postimg.cc/15R8gMRz/6970c6f3d78ea0421218bed3.jpg',
   },
   {
     id: 2,
