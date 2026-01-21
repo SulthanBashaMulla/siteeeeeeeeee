@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import logo from "@/assets/founder.svg";
+import logo from "@/assets/logo.svg";
 
 const menuItems = [
   { name: 'Home', path: '/' },
@@ -40,7 +40,7 @@ export const Header = () => {
 <img
   src={logo}
   alt="NovaTech logo"
-  className="h-8 md:h-10 w-auto"
+  className="h-16 md:h-20 w-auto"
 />
           </motion.div>
 
