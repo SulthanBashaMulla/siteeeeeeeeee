@@ -62,7 +62,7 @@ export const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10"
   >
 We Build Websites That Speak Your Brand,
-          Build It. Visit It. Love It 🧭
+Build It. Visit It. Love It 🧭
         </motion.p>
 
         <motion.div
