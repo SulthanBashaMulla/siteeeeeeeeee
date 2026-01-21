@@ -60,8 +60,9 @@ export const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10"
-        >
-          Crafting Digital Excellence Through Innovative Web Solutions
+  >
+We Build Websites That Speak Your Brand,
+          Build It. Visit It. Love It 🧭
         </motion.p>
 
         <motion.div
