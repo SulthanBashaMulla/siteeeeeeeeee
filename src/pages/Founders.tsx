@@ -5,22 +5,12 @@ import { Linkedin, Twitter } from 'lucide-react';
 
 const founders = [
   {
-    id: 2,
-    name: '------',
-    role: 'Chief Strategy Officer',
-    bio: 'Strategic mastermind driving business growth through innovative solutions. Sarah brings 15 years of experience in business development and strategic planning.',
-    fullBio: 'Sarah has helped scale multiple startups from seed stage to successful exits. Her background in management consulting and startup ecosystems gives NovaTech a unique edge in understanding market dynamics and client needs.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=600&fit=crop&crop=face',
-    linkedin: '#',
-    twitter: '#',
-  },
-  {
-    id: 2,
+    id: 1,
     name: 'AshthaNor',
     role: 'Founder & CEO',
     bio: 'Visionary leader with 10+ years in tech innovation and digital transformation. Alexander founded NovaTech with a mission to democratize access to premium web solutions for businesses of all sizes.',
     fullBio: 'Before founding NovaTech, Alexander led product teams at several Fortune 500 companies, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=face',
+    image: '/src/assets/founder.svg',
     linkedin: '#',
     twitter: '#',
   },
