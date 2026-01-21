@@ -15,14 +15,14 @@ const founders = [
     id: 2,
     name: 'AshthaNor',
     role: 'Founder & CEO',
-    bio: 'Visionary leader with 10+ years in tech innovation and digital transformation.',
+    bio: 'A BCA stident with a vision and 1+ years in tech innovation and digital transformation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
   },
   {
     id: 3,
     name: 'Jack',
     role: 'Project Manager & CFO',
-    bio: 'Financial expert ensuring sustainable growth and investor confidence.',
+    bio: 'BCOM Graduate Relational to Financial expert ensuring sustainable growth and investor confidence.',
     image: 'https://i.postimg.cc/D0WcF5bX/51b106d479aed03e837a5260387773f5.jpg',
   },
 ];
