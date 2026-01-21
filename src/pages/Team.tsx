@@ -12,7 +12,7 @@ const teamMembers = [
   {
     name: 'Jack',
     role: 'Project Manager & SEO',
-    image: 'https://i.postimg.cc/8csyyMdZ/1768983660878.png',
+    image: 'https://i.postimg.cc/hvJ0gM7x/6ae827fcca32bf53c2a286efeb0b145d.jpg',
     linkedin: '#',
   },
   {
