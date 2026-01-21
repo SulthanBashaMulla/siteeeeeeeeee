@@ -53,8 +53,7 @@ export const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted-foreground text-sm"
-          > Made with 🤍
-            © {new Date().getFullYear()} NovaTech. All rights reserved.
+          >  © {new Date().getFullYear()} NovaTech. All rights reserved.Made with 🤍
           </motion.p>
         </div>
       </div>
