@@ -6,7 +6,7 @@ import { Linkedin, Twitter } from 'lucide-react';
 const founders = [
   {
     id: 1,
-    name: 'AshthaNor',
+    name: 'AshWaK',
     role: 'Founder & CEO',
     bio: 'A BCA student with Visionary, 1+ years in tech innovation and digital transformation. Ashthanor founded WybZite with a mission to democratize access to premium web solutions for businesses of all sizes.',
     fullBio: 'Before founding WybZite, Alexander led product teams at several Fortune 5+ companies, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
@@ -16,21 +16,11 @@ const founders = [
   },
   {
     id: 2,
-    name: 'Jack',
-    role: 'Project Manager & CFO',
+    name: 'JameeR',
+    role: 'Chief Strategy Officer',
     bio: 'Financial expert ensuring sustainable growth and investor confidence. Jack has managed portfolios worth billions and brings fiscal discipline to our operations.',
     fullBio: 'With an graduation from RUK and experience at top accounting, jack ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
-    image: 'https://i.postimg.cc/D0WcF5bX/51b106d479aed03e837a5260387773f5.jpg',
-    linkedin: '#',
-    twitter: '#',
-  },
-  {
-    id: 3,
-    name: '----',
-    role: 'Chief Security Officer',
-    bio: 'Financial expert ensuring sustainable growth and investor confidence. Marcus has managed portfolios worth billions and brings fiscal discipline to our operations.',
-    fullBio: 'With a Graduationfrom BCA and experience at top Growth analytics and security system, our CSO ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
-    image: 'https://i.postimg.cc/hvJ0gM7x/6ae827fcca32bf53c2a286efeb0b145d.jpg',
+    image: 'https://i.postimg.cc/1tSLtHn8/1769008094494.png',
     linkedin: '#',
     twitter: '#',
   },

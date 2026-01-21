@@ -4,26 +4,20 @@ import { useState } from 'react';
 
 const founders = [
   
+
   {
     id: 1,
-    name: '-----',
-    role: 'Chief Strategy Officer',
-    bio: 'Strategic mastermind driving business growth through innovative solutions.',
-    image: 'https://i.postimg.cc/hvJ0gM7x/6ae827fcca32bf53c2a286efeb0b145d.jpg',
-  },
-  {
-    id: 2,
-    name: 'AshthaNor',
+    name: 'AshWaK',
     role: 'Founder & CEO',
     bio: 'A BCA stident with a vision and 1+ years in tech innovation and digital transformation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Jack',
-    role: 'Project Manager & CFO',
+    role: 'Chief Strategy Officer',
     bio: 'BCOM Graduate Relational to Financial expert ensuring sustainable growth and investor confidence.',
-    image: 'https://i.postimg.cc/D0WcF5bX/51b106d479aed03e837a5260387773f5.jpg',
+    image: 'https://i.postimg.cc/1tSLtHn8/1769008094494.png',
   },
 ];
 
