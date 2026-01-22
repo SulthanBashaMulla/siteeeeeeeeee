@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wybzite.vercel.app/sitemap.xml
