@@ -37,7 +37,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2020, WybZite emerged from a shared vision to bridge the gap between 
+                  Founded in 2025, WybZite emerged from a shared vision to bridge the gap between 
                   innovative technology and elegant design. What started as a small team of passionate 
                   developers has grown into a full-service digital agency.
                 </p>
@@ -82,7 +82,7 @@ const About = () => {
               className="card-premium p-10"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
-                <span className="text-2xl">🎯</span>
+                <span className="text-2xl">🪢</span>
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -99,7 +99,7 @@ const About = () => {
               className="card-premium p-10"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
-                <span className="text-2xl">🚀</span>
+                <span className="text-2xl">🎫</span>
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
