@@ -19,9 +19,13 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    const whatsappUrl = 'https://wa.me/917386744986?text=Hello! I would like to inquire about your services.';
-    window.open(whatsappUrl, '_blank');
-  };
+  const message = encodeURIComponent(
+    "Hello! I would like to inquire about your services."
+  );
+  // 91 = India country code
+  const whatsappUrl = `https://wa.me/917386744986?text=${message}`;
+  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+};
 
   return (
     <Layout>
