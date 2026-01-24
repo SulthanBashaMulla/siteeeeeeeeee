@@ -9,24 +9,23 @@ const Contact = () => {
     email: '',
     message: '',
   });
-
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto: mullasulthanbasha@gmail.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:mullasulthanbasha@gmail.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     window.location.href = mailtoLink;
   };
-
+  
   const handleWhatsApp = () => {
-  const message = encodeURIComponent(
-    "Hello! I would like to inquire about your services."
-  );
-  // 91 = India country code
-  const whatsappUrl = `https://wa.me/917386744986?text=${message}`;
-  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-};
-
+    const message = encodeURIComponent(
+      "Hello! I would like to inquire about your services."
+    );
+    const whatsappUrl = `https://wa.me/917386744986?text=${message}`;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+  };
+  
   return (
     <Layout>
       {/* Hero */}
@@ -112,13 +111,14 @@ const Contact = () => {
             </motion.div>
 
             {/* WhatsApp Section */}
-<motion.div
-  initial={{ opacity: 0, x: 40 }}
-  animate={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.7, delay: 0.2 }}
-  className="flex flex-col justify-center relative"
->
-<div className="card-premium p-10 text-center relative pointer-events-auto">
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="flex flex-col justify-center"
+            >
+              <div className="card-premium p-10 text-center">
                 <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
                   <MessageCircle className="w-10 h-10 text-green-500" />
                 </div>
@@ -128,7 +128,7 @@ const Contact = () => {
                 </p>
                 <button
                   onClick={handleWhatsApp}
-                  className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium transition-all duration-300 hover:scale-105 cursor-pointer"
                   style={{ 
                     backgroundColor: '#25D366',
                     color: 'white',
