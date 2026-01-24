@@ -9,7 +9,7 @@ const founders = [
     name: 'AshWaK',
     role: 'Founder & CEO',
     bio: 'A BCA student with Visionary, 1+ years in tech innovation and digital transformation. Ashthanor founded WybZite with a mission to democratize access to premium web solutions for businesses of all sizes.',
-    fullBio: 'Before founding WybZite, Ashwak led product teams at several business needs. His expertise spans product strategy, team building, and digital innovation.',
+    fullBio: 'Before founding WybZite, Ashwak led product teams at several Fortune 5+ Startups, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
     linkedin: 'https://www.linkedin.com/in/sulthan-basha-mulla-4450423a3',
     instagram: 'https://www.instagram.com/i_am_ashwak?igsh=MXYxMDllMnhzNXF6aQ==',
@@ -97,11 +97,11 @@ const Founders = () => {
                   </div>
 
                   {/* Back */}
-                  <div className="flip-card-back card-premium p-8 flex flex-col justify-between">
-                    <div>
+                  <div className="flip-card-back card-premium p-6 flex flex-col">
+                    <div className="flex-1 overflow-y-auto">
                       <h3 className="text-2xl font-bold mb-2">{founder.name}</h3>
-                      <p className="text-primary text-sm font-medium mb-6">{founder.role}</p>
-                      <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                      <p className="text-primary text-sm font-medium mb-4">{founder.role}</p>
+                      <p className="text-muted-foreground text-sm leading-relaxed mb-3">
                         {founder.bio}
                       </p>
                       <p className="text-muted-foreground text-sm leading-relaxed">
@@ -109,25 +109,25 @@ const Founders = () => {
                       </p>
                     </div>
 
-                    {/* Social Links */}
-                    <div className="flex gap-3 mt-6">
+                    {/* Social Links - Always visible at bottom */}
+                    <div className="flex gap-3 mt-4 pt-4 border-t border-border/50 flex-shrink-0">
                       <a
                         href={founder.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
+                        className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all"
                       >
-                        <Linkedin size={16} />
+                        <Linkedin size={18} />
                       </a>
                       <a
                         href={founder.instagram}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
+                        className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all"
                       >
-                        <Instagram size={16} />
+                        <Instagram size={18} />
                       </a>
                     </div>
                   </div>
