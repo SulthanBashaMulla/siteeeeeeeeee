@@ -109,27 +109,28 @@ const Founders = () => {
                       </p>
                     </div>
 
-                    {/* Social Links - Always visible at bottom */}
-                    <div className="flex gap-3 mt-4 pt-4 border-t border-border/50 flex-shrink-0">
-                      <a
-                        href={founder.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all"
-                      >
-                        <Linkedin size={18} />
-                      </a>
-                      <a
-                        href={founder.instagram}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all"
-                      >
-                        <Instagram size={18} />
-                      </a>
-                    </div>
+{/* Social Links - Always visible at bottom */}
+<div 
+  className="flex gap-3 mt-4 pt-4 border-t border-border/50 flex-shrink-0"
+  onClick={(e) => e.stopPropagation()}
+>
+  <a
+    href={founder.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all z-10"
+  >
+    <Linkedin size={18} />
+  </a>
+  <a
+    href={founder.instagram}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full border-2 border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all z-10"
+  >
+    <Instagram size={18} />
+  </a>
+</div>
                   </div>
                 </div>
               </motion.div>
