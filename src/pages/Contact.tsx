@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    const whatsappUrl = 'https://wa.me/1234567890?text=Hello! I would like to inquire about your services.';
+    const whatsappUrl = 'https://wa.me/7386744986?text=Hello! I would like to inquire about your services.';
     window.open(whatsappUrl, '_blank');
   };
 
