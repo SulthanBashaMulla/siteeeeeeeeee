@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Github, href: '#', label: 'GitHub' },
+  { icon: Twitter, href: 'https://x.com/ashwakbasha7', label: 'Twitter' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/sulthan-basha-mulla-4450423a3', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://www.instagram.com/wybzite?igsh=OTVsMjBweGF4Y2x1', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/SulthanBashaMulla', label: 'GitHub' },
 ];
 
 export const Footer = () => {
