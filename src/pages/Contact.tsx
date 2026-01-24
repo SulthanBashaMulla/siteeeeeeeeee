@@ -12,14 +12,14 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:hello@WybZite.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto: mullasulthanbasha@gmail.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     window.location.href = mailtoLink;
   };
 
   const handleWhatsApp = () => {
-    const whatsappUrl = 'https://wa.me/7386744986?text=Hello! I would like to inquire about your services.';
+    const whatsappUrl = 'https://wa.me/917386744986?text=Hello! I would like to inquire about your services.';
     window.open(whatsappUrl, '_blank');
   };
 
