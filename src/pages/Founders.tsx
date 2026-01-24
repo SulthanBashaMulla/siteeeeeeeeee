@@ -9,7 +9,7 @@ const founders = [
     name: 'AshWaK',
     role: 'Founder & CEO',
     bio: 'A BCA student with Visionary, 1+ years in tech innovation and digital transformation. Ashthanor founded WybZite with a mission to democratize access to premium web solutions for businesses of all sizes.',
-    fullBio: 'Before founding WybZite, Alexander led product teams at several Fortune 5+ Startups, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
+    fullBio: 'Before founding WybZite, Ashwak led product teams at several business needs. His expertise spans product strategy, team building, and digital innovation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
     linkedin: 'https://www.linkedin.com/in/sulthan-basha-mulla-4450423a3',
     instagram: 'https://www.instagram.com/i_am_ashwak?igsh=MXYxMDllMnhzNXF6aQ==',
