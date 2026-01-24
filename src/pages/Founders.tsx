@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Layout } from '@/components/layout/Layout';
 import { useState } from 'react';
-import { Linkedin, Twitter } from 'lucide-react';
+import { Linkedin, Instagram} from 'lucide-react';
 
 const founders = [
   {
@@ -11,8 +11,8 @@ const founders = [
     bio: 'A BCA student with Visionary, 1+ years in tech innovation and digital transformation. Ashthanor founded WybZite with a mission to democratize access to premium web solutions for businesses of all sizes.',
     fullBio: 'Before founding WybZite, Alexander led product teams at several Fortune 5+ Startups, where he developed a passion for bridging the gap between technology and business needs. His expertise spans product strategy, team building, and digital innovation.',
     image: 'https://i.postimg.cc/zvF45bkq/1768980877699.png',
-    linkedin: '#',
-    twitter: '#',
+    linkedin: 'https://www.linkedin.com/in/sulthan-basha-mulla-4450423a3',
+    instagram: 'https://www.instagram.com/i_am_ashwak?igsh=MXYxMDllMnhzNXF6aQ==',
   },
   {
     id: 2,
@@ -21,8 +21,8 @@ const founders = [
     bio: 'Financial expert ensuring sustainable growth and strategic confidence. Jameer has managed portfolios worth a decent and brings fiscal discipline to our operations.',
     fullBio: 'Holding a graduation from RUK and experience at top accounting, jameer ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
     image: 'https://i.postimg.cc/1tSLtHn8/1769008094494.png',
-    linkedin: '#',
-    twitter: '#',
+    linkedin: 'https://www.linkedin.com/in/jameer-ahammed-1360653a3',
+    instagram: 'https://www.instagram.com/jameerahammed?igsh=d3NkdjVnaWowNTRi',
   },
 ];
 
