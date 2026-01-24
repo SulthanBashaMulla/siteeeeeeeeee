@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Layout } from '@/components/layout/Layout';
 import { useState } from 'react';
-import { Linkedin, Instagram} from 'lucide-react';
+import { Linkedin, Instagram } from 'lucide-react';
 
 const founders = [
   {
@@ -113,17 +113,21 @@ const Founders = () => {
                     <div className="flex gap-3 mt-6">
                       <a
                         href={founder.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                         className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
                       >
                         <Linkedin size={16} />
                       </a>
                       <a
-                        href={founder.twitter}
+                        href={founder.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                         className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
                       >
-                        <Twitter size={16} />
+                        <Instagram size={16} />
                       </a>
                     </div>
                   </div>
