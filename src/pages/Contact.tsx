@@ -112,14 +112,13 @@ const Contact = () => {
             </motion.div>
 
             {/* WhatsApp Section */}
-            <motion.div
-              initial={{ opacity: 0, x: 40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7, delay: 0.2 }}
-              className="flex flex-col justify-center"
-            >
-              <div className="card-premium p-10 text-center">
+<motion.div
+  initial={{ opacity: 0, x: 40 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.7, delay: 0.2 }}
+  className="flex flex-col justify-center relative"
+>
+<div className="card-premium p-10 text-center relative pointer-events-auto">
                 <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
                   <MessageCircle className="w-10 h-10 text-green-500" />
                 </div>
