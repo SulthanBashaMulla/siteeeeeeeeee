@@ -19,7 +19,7 @@ const founders = [
     name: 'JameeR',
     role: 'Chief Strategy Officer',
     bio: 'Financial expert ensuring sustainable growth and strategic confidence. Jameer has managed portfolios worth a decent and brings fiscal discipline to our operations.',
-    fullBio: 'Holding a graduation from RUK and experience at top accounting, jameer ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
+    fullBio: 'Holding a graduation of BCOM and experience at top accounting, jameer ensures WybZite maintains financial health while investing in growth. His strategic financial planning has been crucial to our sustainable scaling.',
     image: 'https://i.postimg.cc/1tSLtHn8/1769008094494.png',
     linkedin: 'https://www.linkedin.com/in/jameer-ahammed-1360653a3',
     instagram: 'https://www.instagram.com/jameerahammed?igsh=d3NkdjVnaWowNTRi',
